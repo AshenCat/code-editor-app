@@ -6,3 +6,5 @@ declare module '*.jpg' {
     const value: any;
     export default value;
 }
+
+import "@testing-library/jest-dom/extend-expect";
