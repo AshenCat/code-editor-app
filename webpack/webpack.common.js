@@ -36,7 +36,7 @@ module.exports = {
        filename: 'bundle.js',
     },  
     devServer: {
-        port: 9000,
+        port: 3000,
     },
     plugins: [
         new HtmlWebpackPlugin({
