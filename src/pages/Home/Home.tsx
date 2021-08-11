@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core'
 import React from 'react'
-import ProgrammingLanguagesList from '../components/Home/ProgrammingLanguagesList'
+import ProgrammingLanguagesList from '../../components/Home/ProgrammingLanguagesList'
 
 const Home = () => {
     const classes = useStyles()

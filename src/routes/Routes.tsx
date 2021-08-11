@@ -5,7 +5,7 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import ProtectedRoute from '../auth/ProtectedRoute';
 import Header from '../components/common/Header/Header';
 import Loading from '../components/common/Loading';
-import Home from '../pages/Home';
+import Home from '../pages/Home/Home';
 import varRoutes from './varRoutes';
 
 const Routes = () => {
