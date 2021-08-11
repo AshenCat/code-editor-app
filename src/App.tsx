@@ -1,8 +1,7 @@
 import './index.scss';
+import Routes from './routes/Routes';
 
 export const App: React.FunctionComponent<any> = () => {
     console.log();
-    return <div className="App">
-        Hello World! {process.env.NODE_ENV}
-    </div>
+    return <Routes />
 }

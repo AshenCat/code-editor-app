@@ -3,7 +3,7 @@ import React, { PropsWithChildren } from 'react'
 import { useAppSelector } from '../state/hooks'
 import { appColors, darkModeColors } from './colors'
 
-const CustomThemeProvider = (props: PropsWithChildren<{}>) => {
+const CustomThemeProvider = (props: PropsWithChildren<any>) => {
     const darkMode = useAppSelector(state => state.darkMode)
     const theme = createTheme({
         palette: {
