@@ -3,7 +3,7 @@ import { Auth0Provider } from '@auth0/auth0-react'
 import appConfig from '../config/app.config'
 import { useHistory, withRouter } from 'react-router-dom'
 
-const AuthProvider = (props: PropsWithChildren<{}>) => {
+const AuthProvider = (props: PropsWithChildren<any>) => {
     const history = useHistory();
     const onRedirectCallback = (appState: any) => {
         history.push(appState?.returnTo || window.location.pathname)
