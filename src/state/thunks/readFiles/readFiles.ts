@@ -5,6 +5,7 @@ import {v4 as uuidv4} from 'uuid'
 const readSingleFile = (file: CustomFile): Promise<UserFile> => {
     return new Promise(resolve => {
         const reader = new FileReader();
+        reader.readAsText(file);
         reader.onload = function() {
             const {name, webkitRelativePath = ''} = file;
             const id = uuidv4();
