@@ -31,6 +31,7 @@ module.exports = {
       '@typescript-eslint/explicit-module-boundary-types': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       'react-hooks/exhaustive-deps': 'off',
-      '@typescript-eslint/ban-types': ['warn']
+      '@typescript-eslint/ban-types': ['warn'],
+      '@typescript-eslint/no-non-null-assertion': 'off'
     },
   }
