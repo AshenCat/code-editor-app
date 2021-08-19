@@ -12,8 +12,8 @@ Technologies used:
 
 ## Screenshots
 Login: 
-![Login] (/readme/landing.png)
+![Login](/readme/landing.png)
 Auth:
-![auth0] (/readme/auth0.png)
+![auth0](/readme/auth0.png)
 Editor:
-![editor] (/readme/ss.png)
+![editor](/readme/ss.png)
